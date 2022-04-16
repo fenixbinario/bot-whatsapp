@@ -164,7 +164,7 @@ const withOutSession = () => {
         '🙌 El core de whatsapp se esta actualizando',
         '🙌 para proximamente dar paso al multi-device',
         '🙌 falta poco si quieres estar al pendiente unete',
-        '🙌 http://t.me/leifermendez',
+        '🙌 http://www.fenixbinario.com/bot-whatsapp-web',
         '________________________',
     ].join('\n'));
 
@@ -177,6 +177,7 @@ const withOutSession = () => {
     }))
 
     client.on('ready', (a) => {
+        console.log('Conectando .....READY!!');
         connectionReady()
         listenMessage()
         loadRoutes(client);

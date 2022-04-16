@@ -1,12 +1,13 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
-            "Prueba escribiendo *hola* \n"
+            "😎 *Bienvenido al universo de Fénix Binario* ✌️\n",
+            "He activado un 🤖 Bot, para que conteste por mí a preguntas frecuentes.\n",
+            "*Linkedin:* @fenixbinario \n",
+            "*Twitter:* @fenixbinario \n",
+            "*Instagram:* @fenixbinario \n",
+            "*Telegram:* @fenixbinario \n",
+            "*WebSite:* www.fenixbinario.com \n"
         ],
         "media":null,
         "trigger":null
@@ -23,15 +24,15 @@
     "STEP_1":{
         "replyMessage":[
             "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
+            "decirte que mi nombre es *Fénix Ríos*😎  \n",
+            "\n Si necesitas ver más info sobre  mi CV",
             "escribe *cursos* o *info* o escribe *audio*"
         ],
         "media":null,
         "trigger":null,
         "actions":{
             "title":"¿Que te interesa ver?",
-            "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
+            "message":"Recuerda todo este contenido es gratis y estaria genial que me sigas!",
             "footer":"Gracias",
             "buttons":[
                 {"body":"Cursos"},
@@ -111,7 +112,7 @@
     "STEP_5":{
         "replyMessage":[
             "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
+            "https://youtube.com/fenixbinario \n"
         ],
         "media":null,
         "trigger":null
@@ -133,7 +134,7 @@
     "STEP_7":{
         "replyMessage":[
             "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
+            "https://t.me/fenixbinario \n"
         ],
         "media":null,
         "trigger":null
