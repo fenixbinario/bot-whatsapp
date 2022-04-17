@@ -21,7 +21,7 @@ const MULTI_DEVICE = process.env.MULTI_DEVICE || 'false';
 const server = require('http').Server(app)
 const io = require('socket.io')(server, {
     cors: {
-        origins: ['http://localhost:4200']
+        origins: [`http://localhost:${port}`]
     }
 })
 
